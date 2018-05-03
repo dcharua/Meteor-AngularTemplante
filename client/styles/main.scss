@@ -1,0 +1,151 @@
+/* Mermaid font */
+@font-face {
+  font-family: 'Futura';
+  src: url('/fonts/Futura.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Futura-Bold';
+  src: url('/fonts/Futura-Bold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Futura-Heavy';
+  src: url('/fonts/Futura-Heavy.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'Futura-Medium';
+  src: url('/fonts/futura-medium.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Futura-Book';
+  src: url('/fonts/Futura-Book.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Futura-Light';
+  src: url('/fonts/Futura-light.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+body, html {
+  	padding: 0;
+  	margin: 0;
+    background-color: #F2F2F2;
+    height: 100%;
+    width: 100%;
+}
+
+p{
+  font-family: Futura;
+}
+strong{
+  font-family:Futura-heavy !important;
+}
+.light{
+  font-family:Futura-light !important;
+}
+
+.active{
+  font-family: Futura-heavy !important;
+}
+
+.btn-contacto{
+    font-size: 1.6em;
+    text-decoration: none;
+    color: #fff;
+    background-color: #C4A833 !important;
+    text-align: center;
+    letter-spacing: .5px;
+    transition: .2s ease-out;
+    cursor: pointer;
+    font-family: Futura-Medium;
+}
+
+.loader {
+    position: absolute;
+    left: 45%;
+    top: 40%;
+    z-index: 1;
+    border: 12px solid #f3f3f3;
+    border-top: 12px solid #4C535F;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    animation: spin 2s linear infinite;
+}
+
+.nomargin{
+  margin: 0 !important;
+}
+ .crusor{
+   cursor: pointer;
+ }
+
+ .imageover{
+  position: absolute;
+  top:0;
+  width: 100px;
+  padding-left: 25px;
+  img{
+    width: 75px;
+    height: auto;
+  }
+ }
+
+ .title-mob{
+   width: 100%;
+   background-color: #CECECE;
+   text-align: center;
+   margin-top: 16px;
+   font-family: Futura-Book;
+   padding: 12px;
+   font-size: 1.6em;
+   box-shadow: 1px 1px 1px 1px rgba(169, 166, 166, 0.7)
+ }
+ .mobilesection{
+  text-align: center;
+  padding: 70px 30px;
+ }
+
+ .box{
+  background-color: #fff;
+  box-shadow: 1px 1px 1px 1px rgba(169, 166, 166, 0.7);
+  padding: 5px 15px;
+  margin: 30px 0;
+ }
+
+ .foto-info{
+   float: right;
+   font-family: Futura-Book;
+   padding-top: 10px;
+ }
+
+.btn-web{
+   font-size: 1.5em !important;
+   margin-top: 30px;
+   background-color: #C4A833 !important;
+ }
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill {
+ -webkit-text-fill-color: #fff;
+}
